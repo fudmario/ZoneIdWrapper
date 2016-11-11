@@ -6,7 +6,7 @@ When you download a file via Internet, the file is tagged with a little bit of i
  
 
 #### <i class="icon-file"></i> Example Code
-``` .vb
+``` vbnet
    Using zi As New ZoneIdentifier("D:\Sample.exe")
             If zi.Zone = UrlZone.Internet Then
                 zi.Remove
